@@ -1,1 +1,1 @@
-javaScript note book
+javaScript Note Book
