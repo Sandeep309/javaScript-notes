@@ -2,7 +2,7 @@
 
 Tags: Theory
 
-W**hat is Directives in angular:**
+## W**hat is Directives in angular:**
 
 - Directives are angular syntaxes witch you can write inside html DOM
 - directives help to attach behavior to the HTML DOM
@@ -12,7 +12,7 @@ W**hat is Directives in angular:**
     - Component Directives
 - Examples: `*ngIf`, `*ngFor`, `*ngSwitch`, `ngStyle`, `ngClass`, and `ngModel`.
 
-**Structural Directives**: 
+## **Structural Directives**:
 
 - structural directives changes the structure of the DOM elements
 - it adds or removes elements from HTML DOM based on certain conditions
@@ -36,7 +36,7 @@ W**hat is Directives in angular:**
 </div>
 ```
 
-**Attribute Directives**:
+## **Attribute Directives**:
 
 - attribute directives changes the appearance and behavior or look an feel of the existing HTML DOM
 - They are applied to elements as attributes
@@ -59,7 +59,7 @@ W**hat is Directives in angular:**
 <input [(ngModel)]="value" value="" />
 ```
 
-**Component Directives**:
+## **Component Directives**:
 
 - Directives with template. its like a user control
 - its a component its own UI and logics decorated with the @component decorator.
