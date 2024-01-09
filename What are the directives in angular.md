@@ -2,7 +2,7 @@
 
 Tags: Theory
 
-## W**hat is Directives in angular:**
+## What Are Directives in Angular**:**
 
 - Directives are angular syntaxes witch you can write inside html DOM
 - directives help to attach behavior to the HTML DOM
@@ -18,6 +18,8 @@ Tags: Theory
 - it adds or removes elements from HTML DOM based on certain conditions
 - they are denoted by an asterisk (*) prefix in the Angular syntax
 - examples: `*ngIf`, `*ngFor`, and `ngSwitch` `*ngSwitchCase`.
+
+### Syntax:
 
 ```html
 // *ngIf
@@ -43,6 +45,8 @@ Tags: Theory
 - These directives allow you to modify the attributes or properties of elements, apply styles dynamically, or add custom behavior to elements.
 - Examples: `ngStyle`, `ngClass`, and `ngModel`.
 
+### Syntax:
+
 ```html
 // ngClass
 <div [ngClass]="{'activeClass': user.active}"></div>
@@ -64,6 +68,8 @@ Tags: Theory
 - Directives with template. its like a user control
 - its a component its own UI and logics decorated with the @component decorator.
 - Examples: `<app-about-me></app-about-me>`,`<app-contact></app-contact>`
+
+### Syntax:
 
 ```html
 <div>
