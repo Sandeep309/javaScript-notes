@@ -1,8 +1,8 @@
 # Promises
 
-Created: January 1, 2024 12:31 AM
 Tags: Theory
-Last updated: January 11, 2024 12:54 PM
+Created time: January 1, 2024 12:31 AM
+Last edited time: January 11, 2024 12:56 PM
 
 ## What is Promise?
 
@@ -26,7 +26,7 @@ Last updated: January 11, 2024 12:54 PM
 ```jsx
 const cart = ["shoe", "tshirt", "pants"];
 
-// Callback example code expands vertically 
+// Callback example code expands vertically
 createOrder(cart, function (orderId) {
   proccedToPayment(orderId, function (paymentInfo) {
     showOrderSummary(paymentInfo, function () {
@@ -35,15 +35,15 @@ createOrder(cart, function (orderId) {
   });
 });
 
-// Promise example code expands horizontally 
+// Promise example code expands horizontally
 createOrder(cart)
-.then(function (orderId){
-		return proccedToPayment(orderId)
-})
-.then(function (paymentInfo){
-	return showOrderSummary(paymentInfo)
-})
-.then(function (paymentInfo){
-	return updateWalletbalance(paymentInfo);
-})
+  .then(function (orderId) {
+    return proccedToPayment(orderId);
+  })
+  .then(function (paymentInfo) {
+    return showOrderSummary(paymentInfo);
+  })
+  .then(function (paymentInfo) {
+    return updateWalletbalance(paymentInfo);
+  });
 ```
