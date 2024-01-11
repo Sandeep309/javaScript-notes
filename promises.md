@@ -1,7 +1,8 @@
-# promises
+# Promises
 
 Created: January 1, 2024 12:31 AM
 Tags: Theory
+Last updated: January 11, 2024 12:54 PM
 
 ## What is Promise?
 
